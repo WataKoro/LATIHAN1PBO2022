@@ -6,3 +6,4 @@ Irfan Mochamad Esa
 Ilmu Komputer C2 2020
 
 Setiap kodingan menggunakan prinsip inheritance. Yaitu class data pemain mewarisi data tim.
+Untuk penjelasan lebih lanjut dapat melalui komentar di kodingan
