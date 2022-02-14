@@ -1,13 +1,17 @@
+#class data tim
 class DataTim():
+    #atribut class data tim
     __nama = ""
     __asal = ""
     __tahun = 0
     
+    #constructor
     def __init__(self):
         self.__nama = ""
         self.__asal = ""
         self.__tahun = 0
-        
+    
+    #fungsi mengisi atribut dan memanggilnya
     def setNama(self, n):
         self.__nama = n
     
@@ -26,7 +30,9 @@ class DataTim():
     def getTahun(self):
         return self.__tahun
     
+#class data pemain inherit dari data tim
 class DataPemain(DataTim):
+    #atribut data pemain
     __nomor = 0
     __posisi = ""
     
