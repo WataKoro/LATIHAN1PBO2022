@@ -2,17 +2,20 @@
 include "DataTim.php";
 include "DataPemain.php";
 
+//define dan input isi class data tim
 $tim = new DataTim();
 $tim->setNama("Madrid");
 $tim->setAsal("Spanyol");
 $tim->setTahun(1902);
 
+//print atribut data tim
 echo "=================================". "<br>";
 echo "Nama Tim : ". $tim->getNama() . "<br>";
 echo "Asal : ". $tim->getAsal() . "<br>";
 echo "Berdiri : ". $tim->getTahun() . "<br>";
 echo "=================================". "<br>";
 
+//input atribut data pemain
 $pemain1 = new DataPemain();
 $pemain1->setNama("Marcelo");
 $pemain1->setNomor(12);
@@ -27,6 +30,7 @@ $pemain2->setPosisi("Forward");
 $pemain2->setAsal("Perancis");
 $pemain2->setTahun(1987);
 
+//print atribut class data pemain
 echo "=================================". "<br>";
 echo "Nama Pemain : ". $pemain1->getNama() . "<br>";
 echo "Nomor : ". $pemain1->getNomor() . "<br>";
