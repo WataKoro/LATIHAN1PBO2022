@@ -1,17 +1,20 @@
 #include "DataTim.cpp"
 
 int main(){
+    //define dan set isi atribut dalam kelas
     DataTim tim;
     tim.setNama("Madrid");
     tim.setAsal("Spanyol");
     tim.setTahun(1902);
-
+    
+    //print isi data tim
     printf("=================================\n");
     cout<<"Nama  : "<<tim.getNama()<<endl;
     cout<<"Asal  : "<<tim.getAsal()<<endl;
     cout<<"Tahun : "<<tim.getTahun()<<endl;
     printf("=================================\n");
-
+    
+    //input isi atribut pemain
     DataPemain pemain1;
     pemain1.setNama("Marcelo");
     pemain1.setNomor(12);
@@ -25,7 +28,8 @@ int main(){
     pemain2.setPosisi("Forward");
     pemain2.setAsal("Perancis");
     pemain2.setTahun(1987);
-
+    
+    //print isi atribut class pemain
     printf("=================================\n");
     cout<<"Nama   : "<<pemain1.getNama()<<endl;
     cout<<"Nomor  : "<<pemain1.getNomor()<<endl;
